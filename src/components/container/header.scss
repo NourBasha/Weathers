@@ -1,0 +1,17 @@
+
+$mainColor: black;
+
+.header {
+
+    .brand-name {
+        color:$mainColor;
+      
+            // &:visited {color:#00FF00;} /* Visited link    */
+            // &:hover {color:#FF00FF;}   /* Mouse over link */
+            // &:active {color:#0000FF;}  /* Selected link   */
+    }
+
+    .home-item{
+        color: black;
+    }
+}
