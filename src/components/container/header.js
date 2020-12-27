@@ -7,7 +7,7 @@ class Header extends Component {
         return(
                 
             <div className="header">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light ">
                     <div className="container-fluid"> 
                     <a className="navbar-brand brand-name" href="/">Weathers</a>             
                         <div className="expand navbar-expand mr-auto">
@@ -24,23 +24,6 @@ class Header extends Component {
                 </nav>
             </div>
 
-            // {/* <div class="container">
-            //     <div class="row bg-dark">
-
-            //         <div class="col-8 md-2">
-
-            //                 <ul>
-            //                     <li>
-            //                         <Link to='/' >
-            //                             Home
-            //                        </Link>
-            //                     </li>
-            //                 </ul>
-                            
-            //         </div>
-            //     </div>
-              
-            // </div> */}
         )
     }
 }
